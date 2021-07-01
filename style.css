@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-Black.woff);
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-Regular.woff);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-Light.woff);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-Medium.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-Bold.woff);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-BoldItalic.woff);
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-MediumItalic.woff);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'goodPro';
+  src: url(fonts/FFGoodPro-LightItalic.woff);
+  font-weight: lighter;
+  font-style: italic;
+}
+body{
+  font-family: 'goodPro';
+}
+.header{
+  display: flex;
+  width: 101.2%;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0px 1px 4px;
+  align-items: center;
+  margin-left: -10px;
+  margin-top: -7px;
+}
+header .container{
+  width: inherit;
+  
+  display: flex;
+  align-items: center;
+}
+.container{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.nav{
+  width: 60%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 30%;
+}
+.nav1{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  
+}
+.order-btn1{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 2.5%;
+  font-family: 'goodPro';
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color;
+  background-color: white;
+  justify-self: center;
+  text-decoration: none;
+}
+.nav-item{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  
+}
+.logo{
+  font-size: 26px;
+  font-weight: 400;
+  width: 250px;
+  font-style: italic;
+}
+.logo::first-line{
+font-size: 29px;
+font-weight: 700;
+font-style: normal;
+}
+.stick{
+  width: 5px;
+  height: 60px;
+  background-color: black;
+  margin-left: 7%;
+
+}
+.order-btn{
+  width: 170px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 2.5%;
+  font-family: 'goodPro';
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color;
+  text-decoration: none;
+
+}
+.tele-logo{
+  margin-left: -10%;
+  padding-right: 10%;
+  width: 34px;
+  display: none;
+}
+.order-btn:hover{
+background-color: white;
+}
+.nav-item:hover{
+  border-bottom: solid .01px black;
+}
+.burger-btn{
+  width: 40px;
+  display: none;
+}
+.menu{
+  display: none;
+}
+.hero{
+  margin-top: 0px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+.hero-img{
+  width: 100%;
+  height: 920px;
+}
+.hero-img-content{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 60px;
+}
+.hero-img-content-str{
+  font-size: 120px;
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+}
+.product{
+margin-top: 60px
+}
+.section-title{
+  font-size: 45px;
+  font-weight: 400;
+}
+.product-desc{
+  margin-top: -20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.product-pod-title{
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 20px;
+}
+.product-desc::first-letter{
+  margin-left: 20px;
+
+}
+.product-desc1{
+  margin-left: 40px;
+
+}
+.service-list-item{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.contacts-single{
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.contacts-single-img{
+  width: 50px;
+}
+.contacts-single-desc{
+  margin-left: 15px;
+}
+.contacts-single-link{
+  margin-left: 15px;
+  width: 400px;
+  margin-right: -40px;
+}
+.footer{
+  width: 101%;
+  height: 50px;
+  background-color: black;
+  margin-top: 60px;
+  margin-left: -7px;
+  display: flex;
+  align-items: center;
+}
+.footer .nav{
+  display: flex;
+  flex-direction: row;
+  margin-left: -430px;
+  align-items: center;
+  width: 100%;
+  
+}
+.footer .nav-item{
+  color: white;
+}
+.footer .nav-item:hover{
+  border-bottom: white solid 1px;
+}
